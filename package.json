@@ -1,0 +1,23 @@
+{
+  "name": "uml-multiverse",
+  "version": "1.0.0",
+  "description": "Slides for the Day: [Demo Slides](https://docs.google.com/presentation/d/e/2PACX-1vQvtPZCjbh_UFL5SgKlDNpZCNZyp-lpdWcdyMvkGyxia4F-SA_Y7Ni9XcBonXYmnCDZCttr5DlQu-vk/pub?start=false&loop=false&delayms=3000).",
+  "main": "CarBuyer.js",
+  "scripts": {
+    "test": "jest --collect-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrickb001/UML-Multiverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrickb001/UML-Multiverse/issues"
+  },
+  "homepage": "https://github.com/Patrickb001/UML-Multiverse#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}

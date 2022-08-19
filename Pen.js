@@ -1,34 +1,38 @@
 class Pen {
-    #hasInk;
-    #colorInk;
+  #hasInk;
+  #colorInk;
 
-    constructor(colorInk){
-        this.#hasInk = true;
-        this.#colorInk = colorInk;
-    }
+  constructor(colorInk) {
+    this.#hasInk = true;
+    this.#colorInk = colorInk;
+  }
 
-    getHasInk(){
-        return this.#hasInk
-    }
+  color() {
+    return this.#colorInk;
+  }
 
-    setHasInk(status){
-        this.#hasInk = status;
-    }
+  getHasInk() {
+    return this.#hasInk;
+  }
 
-    write(sentence) {
-        console.log(sentence)
-    }
+  setHasInk(status) {
+    this.#hasInk = status;
+  }
 
-    sign(name){
-        if (this.#hasInk){
-            this.write(name)
-        } else {
-            throw new Error('Pen does not have ink.')
-        }
+  write(sentence) {
+    console.log(sentence);
+  }
+
+  sign(name) {
+    if (this.#hasInk) {
+      this.write(name);
+    } else {
+      throw new Error("Pen does not have ink.");
     }
+  }
 }
 
-// module.exports = Pen
+module.exports = Pen;
 
 // let pen1 = new Pen('pink')
 // pen.write("Hello world")
